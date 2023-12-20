@@ -23,20 +23,20 @@ Tests in chronogical order
 
 app-of-apps view
 
-![app-of-apps view]("screenshots/2023-12-20 14_17_51-app-of-apps - Application Details Tree - Argo CD — Firefox Nightly.png")
+![app-of-apps view](screenshots/1.png)
 
 apps defined in app-of-apps not sync (autosync on app-of-apps.yaml not enabled)
 
-![home view]("screenshots/2023-12-20 14_19_41-Applications Tiles - Argo CD — Firefox Nightly.png")
+![home view](screenshots/2.png)
 
 after manual sync of app-of-apps
 
-![after manual sync]("screenshots/2023-12-20 14_19_41-Applications Tiles - Argo CD — Firefox Nightly.png")
+![after manual sync](screenshots/3.png)
 
 after update of helm chart version in cert-manager.yaml (commit b64dab3a69bbdced9b8c4dcb97f22cda11c31e7b)
 no automatic sync of cert-manager application is done
 
-![after update of cert-manager helm chart version]("2023-12-20 14_31_15-Applications Tiles - Argo CD — Firefox Nightly.png")
+![after update of cert-manager helm chart version](screenshots/4.png)
 
 after enabling of autosync in app-of-apps.yaml (commit ec6b5aac9a749913ede52df08eb1524354e103c6)
 
@@ -44,4 +44,4 @@ after enabling of autosync in app-of-apps.yaml (commit ec6b5aac9a749913ede52df08
 
 cert-manager is updated automatically, everything is synced
 
-![cert-manager is updated]("2023-12-20 14_34_34-Applications Tiles - Argo CD — Firefox Nightly.png")
+![cert-manager is updated](screenshots/5.png)
