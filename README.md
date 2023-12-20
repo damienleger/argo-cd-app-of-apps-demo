@@ -1,6 +1,6 @@
 # TESTS
 
-Install ArgoCD
+## Install ArgoCD
 
 ```bash
 # bootstrap
@@ -15,7 +15,7 @@ kubectl -n argocd port-forward service/argocd-server --address 0.0.0.0 8080:443
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
 
-Tests in chronogical order
+## Tests in chronogical order
 
 (commit 5c7f60575f46a3fad904bb28250a8a642b810e89)
 
